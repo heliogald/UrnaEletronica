@@ -372,7 +372,7 @@ namespace UrnaEletronica
             panel2.Location = new Point(47, 105);
             panel2.Margin = new Padding(4, 5, 4, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(725, 609);
+            panel2.Size = new Size(725, 625);
             panel2.TabIndex = 7;
             panel2.Paint += panel2_Paint;
             // 
