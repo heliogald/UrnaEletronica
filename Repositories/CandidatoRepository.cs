@@ -7,9 +7,8 @@ namespace UrnaEletronica.Repositories
     {
         private readonly List<Candidato> _candidatos = new List<Candidato>
         {
-            new Candidato { Numero = "13", Nome = "Lula", Partido = "PT" },
-            new Candidato { Numero = "45", Nome = "Enéias", Partido = "XYZ" },
-            //new Candidato { Numero = "77", Nome = "Carlos Lima", Partido = "QWE" }
+            new Candidato { Numero = "10", Nome = "Homer Simpson", Partido = "ABC" },
+            new Candidato { Numero = "20", Nome = "Sr Barnes", Partido = "DEF" }            
         };
 
         public Candidato BuscarPorNumero(string numero)
