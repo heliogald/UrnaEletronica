@@ -291,8 +291,12 @@ namespace UrnaEletronica
             button13.Click += button13_Click;
             // 
             // button14
-            // 
-            button14.BackColor = SystemColors.ActiveCaptionText;
+            //
+            this.button14.BackColor = System.Drawing.Color.Transparent;
+            this.button14.BackColor = Color.OrangeRed;
+            button14.FlatAppearance.BorderColor = Color.OrangeRed;
+            button14.FlatAppearance.MouseDownBackColor = Color.OrangeRed;
+            button14.FlatAppearance.MouseOverBackColor = Color.Orange;            
             button14.FlatStyle = FlatStyle.Flat;
             button14.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button14.Location = new Point(180, 478);
@@ -307,6 +311,11 @@ namespace UrnaEletronica
             // 
             // button15
             // 
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.BackColor = Color.White;
+            button15.FlatAppearance.BorderColor = Color.White;
+            button15.FlatAppearance.MouseDownBackColor = Color.White;
+            button15.FlatAppearance.MouseOverBackColor = Color.AntiqueWhite;
             button15.FlatStyle = FlatStyle.Flat;
             button15.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button15.Location = new Point(32, 478);
