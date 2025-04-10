@@ -38,7 +38,7 @@ namespace UrnaEletronica
             {
                 lblNomeCandidato.Text = $"Nome: {candidato.Nome} - Partido: {candidato.Partido}";
 
-                string caminhoImagem = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Imagens", $"{candidato.Numero}.jpg");
+                string caminhoImagem = Path.Combine(Application.StartupPath, @"..\..\..\Imagens", $"{candidato.Numero}.jpg");
 
                 if (File.Exists(caminhoImagem))
                 {

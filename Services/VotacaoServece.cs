@@ -8,7 +8,7 @@ namespace UrnaEletronica.Services
 {
     public class VotacaoService
     {
-        private readonly string _arquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "votos.txt");
+        private readonly string _arquivo = Path.Combine(Application.StartupPath, @"..\..\..\votos.txt");
         private string _ultimoHash = "";
 
         public VotacaoService()
