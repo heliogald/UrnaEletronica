@@ -38,6 +38,9 @@ UrnaEletronica/
 ## 🧠 Funcionalidades
 
 - Digite 2 números para visualizar o candidato (nome, partido e foto)
+
+![alt text](image.png)
+
 - Voto em **candidato**, **em branco** ou **nulo**
 - Cada voto é salvo em `votos.txt` com um **hash encadeado**
 - Interface inspirada em **urna real**, com botões coloridos e teclado numérico
