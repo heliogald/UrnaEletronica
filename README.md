@@ -71,7 +71,7 @@ Isso garante integridade dos dados e rastreabilidade.
 
 2. **Abra o projeto no Visual Studio**
 
-3. **Verifique se o .NET 6.0+ está instalado**
+3. **Verifique se o .NET 8.0+ está instalado**
 
 4. **Rode o projeto (F5)**
 
